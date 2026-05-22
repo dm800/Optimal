@@ -1,0 +1,15 @@
+a = 5
+b = 3
+c = a + b * 2
+
+if (c) then
+    c = c - 1
+else
+    c = c + 1
+end
+
+while (c) do
+    c = c - 1
+end
+
+return c
