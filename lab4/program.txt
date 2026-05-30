@@ -1,0 +1,14 @@
+a = 5;
+b = 0;
+
+while (a > 0) do
+    if (a > 2) then
+        b = b + a;
+    else
+        b = b + 1;
+    end
+
+    a = a - 1;
+end
+
+return b;
